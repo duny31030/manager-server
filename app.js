@@ -8,6 +8,7 @@ const logger = require('koa-logger')
 const log4js = require('./utils/log4j')
 const users = require('./routes/users')
 const router = require('koa-router')()
+const jwt = require("jsonwebtoken");
 
 // error handler
 onerror(app)
